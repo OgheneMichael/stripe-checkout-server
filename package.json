@@ -1,0 +1,19 @@
+{
+  "name": "stripe-server",
+  "version": "1.0.0",
+  "description": "Test server for stripe x flutter integration",
+  "main": "index.js",
+  "author": "Oghene Michael",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.111.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
